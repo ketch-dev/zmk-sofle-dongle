@@ -52,10 +52,6 @@
         init-delay-ms = <50>;
     };
 
-    vbatt: vbatt {
-        compatible = "zmk,battery-nrf-vddh";
-    };
-
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
